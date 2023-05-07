@@ -1,2 +1,2 @@
 # profile.github.io
-Personal Progile
+Personal Profile
