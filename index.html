@@ -11,11 +11,13 @@ Author URL: http://templatestock.co
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	    
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="js/research.js"></script>
  <script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){		
@@ -26,12 +28,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 </head>
 <body>
-<div class="header" id="head">	
-      <div class="container"> 
+<div class="header" id="head">
+
+      <div class="container">
          <div class="header-top">
-      		 <div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""/></a>
-			 </div>
 		   <div class="top-menu">
 		   	<span class="menu"> </span>
 			<ul>
@@ -54,6 +54,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="clearfix"></div>
 		 </div>  
 		  <div class="index-banner">
+			  <div class="banner-wrap">
+				  <div class="banner_center">
+					  <h1>Manoj Prabhakar Paidiparthy</h1>
+					  <h2>Masters Student, <span>Virginia Tech</span></h2>
+					  <h2>Computer Science</h2>
+				  </div>
+			  </div>
+			  <!--
        	   <div class="wmuSlider example1">
 			   <div class="wmuSliderWrapper">
 				   <article style="position: absolute; width: 100%; opacity: 0;"> 
@@ -65,6 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				   		 		</div>
 				   		 </div>
 					</article>
+
 				   <article style="position: relative; width: 100%; opacity: 1;"> 
 				   	   	<div class="banner-wrap">
 				   	      <div class="banner_center">
@@ -89,9 +98,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <script src="js/jquery.wmuSlider.js"></script> 
 			  <script>
        			$('.example1').wmuSlider();         
-   		     </script> 	           	      
+   		     </script> -->
       </div>
-	 </div>     
+	 </div>
 	</div>
 	<div class="content">
 		<div class="about-section" id="about" id="about">
@@ -102,9 +111,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<img src="images/profile_pic.JPG" alt=""/>
 			</div>
 			<div class="about-text">
-					<p>I am a Masters student in the Computer Science department at Virginia Tech. I did my bachelors in Electrical and Electronics Engineering
-					 at Birla Institute of Technology and Science, India. I worked as a software engineer for four years at Cisco. I also worked at Nvidia and
-					 Microsoft as a software engineer intern. My research interests include Distributed Systems, Cloud Computing, Serverless Computing and Machine Learning.
+					<p>Manoj Prabhakar is a Master's student in the Computer Science department at Virginia Tech. He joined Virginia Tech in Fall 2021 and currently working as a Graduate Research Assistant in the Experimental and Virtualized Systems (ELVES) lab.
+						He earned his Electrical and Electronics Engineering bachelors at Birla Institute of Technology and Science, India. Before joining Virginia Tech, Manoj worked as a software engineer for four years at Cisco. He also worked at Nvidia and
+						Microsoft as a software engineer intern. His research interests include Distributed Systems, Cloud Computing, Serverless Computing, and Machine Learning. Manoj likes to play ping pong and watch movies in his free time.
 					</p>
 			</div>
 			<div class="clearfix"></div>
@@ -151,7 +160,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Skills</span></li>
 									  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Projects</span></li>
 									  <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Achievements</span></li>
-									  <li class="resp-tab-item" aria-controls="tab_item-4" role="tab"><span>Photography</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-4" role="tab"><span>Teaching</span></li>
 									  <div class="clearfix"></div>
 								  </ul>	
 								<div id="portfoliolist">
@@ -234,27 +243,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
 											<div class="tab_img">
 												<div class="col-md-3 exp-text grid_box">
-													<ol>
-														<h4>Searching Electronic Theses Dissertations</h4><br>
-														<ul>
-															<li>Built an efficient search engine for searching over huge collection of ETDs.</li>
-															<li>Used ML Knn search to perform vector search across the detected documents. </li>
-														</ul>
-													</ol><br>
-													<ol>
-														<h4>Airport Visibility Prediction</h4><br>
-														<ul>
-															<li>Used Machine Learning models to predict visibility around the airports in the US.</li>
-															<li>Compared the performance of different models using metrics like mean squared error. </li>
-														</ul>
-													</ol><br>
-													<ol>
-														<h4>Price forecasting using genetic algorithms</h4><br>
-														<ul>
-															<li>Developed Krill herd algorithm based on a research paper to find the optimal power in a load flow analysis problem.</li>
-															<li>Utilized hybrid wavelet KH-ANFIS approach for short-term electricity price forecast.</li>
-														</ul>
-													</ol>
+													<ul>
+														<li>Received multiple recognition awards from Cisco management for delivering customer critical projects with quality.</li>
+														<li>Awarded with MCN scholarship for the academic performance in Birla Institute of Technology and Science.</li>
+													</ul>
 												</div>
 
 												<div class="clearfix"></div>
@@ -262,12 +254,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</div>
 										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-4">
 											<div class="tab_img">
-													<div class="col-md-3 img-top grid_box">
-														<a href="images/pic-1.jpg" class="swipebox"  title="Image Title">
-															  <img src="images/pic-1.jpg" class="img-responsive" alt="">
-															  <span class="zoom-icon"></span> 
-														</a>
-													</div>
+												<div class="col-md-3 exp-text grid_box">
+													<ol>
+														<h4>Communication Systems Lab, Teaching Assistant</h4><br>
+														<ul>
+															<li>Responsible for teaching over a 100 students the various experiments to be performed as part of the lab-work in Communication Systems course.</li>
+															<li>Conducted and evaluated the lab examinations.</li>
+														</ul>
+													</ol><br>
+												</div>
 													
 														<div class="clearfix"></div>
 											</div>	
@@ -288,29 +283,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container"> 
 			<div class="services-header">
 				<h3>Research</h3>
-					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+					<p>My current area of research is serverless edge computing. I am actively working on facilitating serverless paradigm on edge networks.
+						I am part of the ELVES lab headed by Dr. Liting Hu. My areas of interest are Distributed Systems, Cloud Computing, and Machine Learning.</p>
 			</div>
+
 			<div class="services-sectiongrids">
 				<div class="col-md-4 services-grid">
-					<img src="images/img1.png" alt=""/>
-					<h4>webdesign</h4>
-					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+					<img src="images/img1.png" alt="" onclick="toggleProject()" class="expand-on-hover"/>
+					<h4 class="color-on-hover" id="research-project">Projects</h4>
 				</div>
 				<div class="col-md-4 services-grid">
-					<img src="images/img2.png" alt=""/>
-					<h4>print design</h4>
-					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+					<img src="images/img2.png" alt="" onclick="toggleActivity()" class="expand-on-hover"/>
+					<h4 class="color-on-hover" id="research-activity">Activities</h4>
 				</div>
 				<div class="col-md-4 services-grid">
-					<img src="images/img3.png" alt=""/>
-					<h4>web development</h4>
-					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+					<img src="images/img3.png" alt="" onclick="togglePublication()" class="expand-on-hover"/>
+					<h4 class="color-on-hover" id="research-publication">Publications</h4>
+				</div>
+				<br>
+
+				<div id="research-content">
+
 				</div>
 				<div class="clearfix"></div>
 				<div class="arrow1">
 					<a href="#contact" class="scroll"><img src="images/arrow1.png" alt=""/></a>
 					</div>
 		</div>
+
 		</div>
 		</div>
 		<!-- services-section-ends -->
@@ -318,35 +318,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer-section" id="contact" id="contact">
 			<div class="container"> 
 			<div class="contact-header">
-				<h3> contact</h3>
-					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+				<h3>Contact Information</h3>
 			</div>
-			<div class="social-icon">
-				<a href="#"><i class="icon1"></i></a>
-				<a href="#"><i class="icon2"></i></a>
-				<a href="#"><i class="icon3"></i></a>
-				<a href="#"><i class="icon4"></i></a>
-				<a href="#"><i class="icon5"></i></a>
-				<a href="#"><i class="icon6"></i></a>
-				<a href="#"><i class="icon7"></i></a>
-				<a href="#"><i class="icon8"></i></a>
+			<div class="social-icon" style="justify-content: center">
+				<a href="https://www.linkedin.com/in/manoj-prabhakar-paidiparthy/"><i class="fa fa-linkedin-square " style="font-size: 48px"></i></a>
+				<a href="https://github.com/pmanojprabhakar"><i class="fa fa-github" style="font-size: 48px"></i></a>
+				<a href="https://www.facebook.com/manoj.prabhakar.925"><i class="fa fa-facebook" style="font-size: 48px"></i></a>
 			</div>
 			<div class="contact">
 				<form>
 					<div class="col-md-4 contactgrid">
-						<input type="text" class="text" value=" name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' name';}">
-					</div>
-					<div class="col-md-4 contactgrid">
-						<input type="text" class="text" value="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'email';}">
-					</div>
-					<div class="col-md-4 contactgrid">
-						<input type="text" class="text" value="phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'phone';}">
-					</div>
-					<div class="col-md-8 contactgrid1">
-						<textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
-					</div>
-					<div class="col-md-4 contactgrid2">
-						<input type="submit" value="[send message]">
+						<p style="color: whitesmoke; font-size: large"><i class="fa fa-envelope " style="font-size: 48px; color:whitesmoke"></i>&#20 &#20pmanojprabhakar@vt.edu</p>
 					</div>
 				   <div class="clearfix"></div>
 				</form>

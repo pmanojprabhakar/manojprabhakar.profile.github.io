@@ -37,7 +37,7 @@ body{
 	
 }
 .header{
-	background: url("../images/banner.jpg") no-repeat center top;
+	background: url("../images/virginia_tech_blur.jpg") no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -46,6 +46,7 @@ body{
 	background-size:cover;
 	min-height: 550px;
 }
+
 .header-top {
 	padding-top: 3em;
 }
@@ -145,6 +146,7 @@ nav a:focus {
 	left: 25%;
 	text-align: center;
 
+
 }
 .banner_center h1 {
 	color: #eee;
@@ -156,7 +158,7 @@ nav a:focus {
 	color: #eee;
 	font-family: 'Arvo', serif;
 	text-transform: uppercase;
-	font-size: 2.4em;
+	font-size: 1.8em;
 	padding:7px 0;
 }
 .banner_center h2 span
@@ -262,6 +264,20 @@ ul.wmuSliderPagination {
 .exp-text h4{
 	font-family: 'Arvo', serif;
 	text-transform: uppercase;
+	font-weight: 400;
+	color: #ef664d;
+}
+
+.res-text{
+	text-align: left;
+	width: 85%;
+	margin: 0 auto;
+	color: black;
+}
+
+.res-text h4{
+	font-family: 'Arvo', serif;
+	text-transform: capitalize;
 	font-weight: 400;
 	color: #ef664d;
 }
@@ -743,7 +759,6 @@ padding:30px 0;
 .social-icon i{
 	width:40px;
 	height:40px;
-	background: url("../images/img-sprite.png") no-repeat 0px 0px;
 	display:inline-block;
 }
 .social-icon i:hover{
@@ -755,6 +770,7 @@ padding:30px 0;
 }
 .social-icon a i.icon1{
 	background-position:0px 0px;
+	color: white;
 }
 .social-icon a i.icon1:hover{
 	background-position:0px -40px;
@@ -869,6 +885,17 @@ padding-bottom: 2em;
 .footer-bottom p a {
 	margin: 0 6px 0 6px;
 }
+
+.expand-on-hover:active + h4,
+.expand-on-hover:hover + h4 {
+	transform: scale(1.2);
+	color: #ef664d;
+}
+
+.expand-on-hover:hover {
+	transform: scale(1.2);
+}
+
 #toTop {
 	display: none;
 	text-decoration: none;
@@ -1533,63 +1560,14 @@ padding-bottom: 2em;
 		.footer-section {
 			padding: 15px 0px;
 		}
+
 		.social-icon {
 			padding: 10px 0;
 		}
-		.social-icon i {
+		.social-icon {
 			width: 30px;
 			height: 30px;
-			background: url("../images/img-sprite.png") no-repeat 0px 0px;
 			display: inline-block;
-			background-size: 420px;
-		}
-		.social-icon a i.icon1 {
-		background-position: -3px -3px;
-		}
-		.social-icon a i.icon1:hover {
-			background-position: -3px -33px;
-		}
-		.social-icon a i.icon2 {
-			background-position: -36px -3px;
-		}
-		.social-icon a i.icon2:hover {
-			background-position: -36px -34px;
-		}
-		.social-icon a i.icon3 {
-			background-position: -70px -3px;
-		}
-		.social-icon a i.icon3:hover {
-			background-position: -70px -34px;
-		}
-		.social-icon i.icon4 {
-			background-position: -103px -3px;
-		}
-		.social-icon a i.icon4:hover {
-			background-position: -103px -34px;;
-		}
-		.social-icon i.icon5 {
-			background-position: -137px -3px;
-		}
-		.social-icon a i.icon5:hover {
-			background-position: -137px -34px;
-		}
-		.social-icon i.icon6 {
-			background-position: -170px -3px;
-		}
-		.social-icon a i.icon6:hover {
-			background-position: -170px -34px;
-		}
-		.social-icon i.icon7 {
-			background-position: -204px -3px;
-		}
-		.social-icon a i.icon7:hover {
-			background-position: -204px -34px;
-		}
-		.social-icon i.icon8 {
-			background-position: -237px -3px;
-		}
-		.social-icon a i.icon8:hover {
-			background-position: -237px -34px;
 		}
 			.footer-bottom p {
 			font-size: 13px;
